@@ -1,0 +1,33 @@
+
+https://medium.com/javarevisited/top-21-string-programming-interview-questions-for-beginners-and-experienced-developers-56037048de45
+https://javarevisited.blogspot.com/2015/01/top-20-string-coding-interview-question-programming-interview.html
+https://stackoverflow.com/questions/62694088/how-to-add-multiple-plugin-in-same-pom-xml-file
+https://www.javatpoint.com/programs-list#number
+https://www.interviewgrid.com/interview_questions/java
+https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html
+https://www.interviewgrid.com/interview_questions/java
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+https://www.edureka.co/blog/test-automation-frameworks/
+https://docs.docker.com/get-started/overview/
+http://www.althos.com/tutorial/IPTV-tutorial-topics.html
+
+Spring boot:
+https://github.com/in28minutes/SpringBootForBeginners
+https://www.youtube.com/watch?v=PSP1-2cN7vM&feature=youtu.be&ab_channel=in28minutesCloud%2CDevOpsandMicroservices
+https://mkyong.com/spring-boot/spring-boot-spring-data-jpa-mysql-example/
+https://www.youtube.com/watch?v=IucFDX3RO9U&ab_channel=JavaTechie
+
+Design Pattern:
+https://refactoring.guru/design-patterns/strategy
+
+QA Process:
+https://kruschecompany.com/quality-assurance-in-projects/
+
+
+
+
+
+
+
+
+

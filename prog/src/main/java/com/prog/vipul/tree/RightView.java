@@ -1,0 +1,63 @@
+package com.prog.vipul.tree;
+
+import com.prog.vipul.tree.TreeTraversal.Node;
+
+public class RightView {
+
+	private static int maxLevel = 0;
+	
+	public static void main(String[] args) {
+
+		Node root = new Node(1);
+		Node left = new Node(2);
+		Node right = new Node(3);
+		Node leftleft = new Node(4);
+		Node leftright = new Node(5);
+		Node rightleft = new Node(6);
+		Node rightright = new Node(7);
+
+		/*
+		 * root.setLeft(left); root.setRight(right);
+		 * 
+		 * left.setLeft(leftleft); left.setRight(leftright);
+		 * 
+		 * right.setLeft(rightleft); right.setRight(rightright);
+		 */
+		
+		
+		root.setLeft(left); 
+		root.setRight(right);
+		
+		right.setLeft(leftleft);
+		right.setRight(leftright);
+		
+		leftleft.setRight(rightleft);
+		rightleft.setRight(rightright);
+
+		// 1
+		// 2 3
+		// 4 5 6 7
+
+		// output - 1,2,4
+
+		
+		int level = 1;
+		rightview(root, level);
+
+	}
+
+	private static void rightview(Node root, int level) {
+		if (root == null)
+			return;
+
+		if(maxLevel<level) {
+			maxLevel=level;
+			System.out.println(root.value);
+		}
+
+		rightview(root.right, level+1);
+		rightview(root.left, level+1);
+		
+
+	}
+}
